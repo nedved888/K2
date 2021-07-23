@@ -10,7 +10,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=================================================
-name: Build OpenWrt Newifi D1
+name: Build OpenWrt K2P
 
 on:
   repository_dispatch:
@@ -30,7 +30,7 @@ env:
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
-  UPLOAD_FIRMWARE: false
+  UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
