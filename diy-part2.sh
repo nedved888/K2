@@ -11,10 +11,10 @@
 #=================================================
 # Modify default IP
 # sed -i 's/15744/32448/g'
-sed -i 's/192.168.123.1/192.168.123.254/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.2.1/192.168.123.1/g' package/base-files/files/bin/config_generate
 
 # Modify hostname
-sed -i 's/OpenWrt/Newifi D1/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/k2p/g' package/base-files/files/bin/config_generate
 
 
 
