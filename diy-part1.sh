@@ -19,7 +19,7 @@
 # git clone https://github.com/xiaorouji/openwrt-package/tree/master/lienol/luci-app-passwall package/luci-app-passwall
 git clone https://github.com/kenzok8/openwrt-packages.git package/diy-packages
 git clone https://github.com/kenzok8/small.git package/small
-
+git clone https://github.com/pymumu/smartdns.git package/smartdns
 
 
 # 增加ssr
